@@ -5,12 +5,10 @@ function App() {
   return (
     <div className="App">
       <div className="choice">
-        <div className="option">
+        <p className="option">
           Скрипичный
-        </div>
-        <div className="option">
-          Басовый
-        </div>
+        </p>
+        <p className="option">Басовый</p>
       </div>
     </div>
   );
