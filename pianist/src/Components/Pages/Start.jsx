@@ -1,22 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
-
+import TwoOption from '../TwoOption'
 const Start = () => {
   return (
-    <div className="App">
-      <div className="choice">
-        <Link to="/treble" className="option">
-            <p>
-            Скрипичный
-            </p>
-        </Link>
-        <Link to="/bass" className="option">
-            <p>
-                Басовый
-            </p>
-        </Link>
-      </div>
-    </div>
+      <TwoOption link1="/treble" link2="/bass" text1="treble key" text2="bass key" /> 
   )
 }
 
