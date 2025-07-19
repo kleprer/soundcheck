@@ -3,9 +3,15 @@
   width: 100vw;
   height: 25vh;
   margin: auto;
+  
 }
 
-
+* {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  box-sizing: border-box;
+}
 
 .choice {
   display: flex;
@@ -34,4 +40,79 @@
 .option:hover {
   background-color:rgb(240, 239, 245);
   color:blue;
+}
+
+.white-keyboard {
+  display: flex;
+  align-self: auto;
+  flex-direction: row;
+  height: 30vh;
+  width: 100wh;
+  border-top: 1px solid black;
+
+  position: relative;
+  top:60vh;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.whitekey {
+  background-color:rgb(255, 255, 255);
+  border: none; 
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 4vw;
+}
+
+.whitekey:hover {
+  background-color: rgb(225, 225, 225); 
+}
+
+.whitekey:active {
+  background-color: rgb(200, 200, 200);
+}
+
+
+.black-keyboard {
+  display: flex;
+  display: flex;
+  align-self: auto;
+  flex-direction: row;
+  height: 20vh;
+  width: 100wh;
+
+  position: absolute;
+  top:60vh;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  z-index: 10;
+}
+
+.blackkey {
+  background-color:rgb(0, 0, 0);
+  border: none; 
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  border-top: 1px solid black;
+  width: 2vw;
+}
+
+
+.blackkey-1 { margin-left: 6vw; } 
+.blackkey-2, .blackkey-8, .blackkey-13, .blackkey-18 { margin-left: 1.5vw; } 
+.blackkey-3, .blackkey-5, .blackkey-7, .blackkey-10, .blackkey-12, .blackkey-15, .blackkey-17 { margin-left: 1.75vw; }
+.blackkey-4, .blackkey-6, .blackkey-9, .blackkey-11, .blackkey-14, .blackkey-16, .blackkey-19 { margin-left: 5vw; } 
+.blackkey-20 { margin-left: 1vw; }  
+
+
+.blackkey:hover {
+  background-color: rgb(25, 25, 25);;
+}
+
+.blackkey:active {
+  background-color: rgb(38, 38, 38);;
 }

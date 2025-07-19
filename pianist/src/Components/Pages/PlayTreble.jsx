@@ -1,8 +1,9 @@
 import React from 'react'
+import Piano from '../Piano'
 
 const PlayTreble = () => {
   return (
-    <div>PlayTreble</div>
+    <Piano />
   )
 }
 
