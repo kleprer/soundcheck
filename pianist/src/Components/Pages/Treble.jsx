@@ -3,7 +3,7 @@ import TwoOption from '../TwoOption'
 
 const Treble = () => {
   return (
-    <TwoOption link1="/treble/rythm" link2="/treble/norythm" text1="with rythm" text2="no rythm" />
+    <TwoOption link1="/treble/sf" link2="/treble/no" text1="with sharps and flats" text2="no thanks" />
   )
 }
 

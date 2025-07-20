@@ -3,7 +3,7 @@ import TwoOption from '../TwoOption'
 
 const Bass = () => {
   return (
-    <TwoOption link1="/bass/rythm" link2="/bass/norythm" text1="with rythm" text2="no rythm" />
+    <TwoOption link1="/bass/sf" link2="/bass/no" text1="with sharps and flats" text2="no thanks" />
   )
 }
 

@@ -34,11 +34,12 @@
   font-size: x-large;
   text-decoration: none;
   color: black;
+  width: 30vw;
+  text-align: center;
   
 }
 
 .option:hover {
-  background-color:rgb(240, 239, 245);
   color:blue;
 }
 
@@ -101,12 +102,14 @@
   width: 2vw;
 }
 
-
-.blackkey-1 { margin-left: 6vw; } 
-.blackkey-2, .blackkey-8, .blackkey-13, .blackkey-18 { margin-left: 1.5vw; } 
-.blackkey-3, .blackkey-5, .blackkey-7, .blackkey-10, .blackkey-12, .blackkey-15, .blackkey-17 { margin-left: 1.75vw; }
-.blackkey-4, .blackkey-6, .blackkey-9, .blackkey-11, .blackkey-14, .blackkey-16, .blackkey-19 { margin-left: 5vw; } 
-.blackkey-20 { margin-left: 1vw; }  
+.blackkey-0 { width: 1vw; }
+.blackkey-1 { margin-left: 3.75vw; } 
+.blackkey-2, .blackkey-8, .blackkey-13, .blackkey-18, .blackkey-22 { margin-left: 0.8vw; } 
+.blackkey-3, .blackkey-5, .blackkey-7, .blackkey-10, .blackkey-12, .blackkey-15, .blackkey-17 { margin-left: 0.9vw; }
+.blackkey-4, .blackkey-6, .blackkey-9, .blackkey-11, .blackkey-14, .blackkey-16, .blackkey-19, .blackkey-21 { margin-left: 3.75vw; } 
+.blackkey-20, .blackkey-23 { margin-left: 1vw; } 
+.blackkey-24 { margin-left: 3.5vw; }
+.blackkey-25 { width: 1vw; margin-left: 1vw; }
 
 
 .blackkey:hover {

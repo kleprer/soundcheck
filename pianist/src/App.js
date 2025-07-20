@@ -14,10 +14,10 @@ function App() {
         <Route path="" element={<Start />} />
         <Route path="bass" element={<Bass />} />
         <Route path="treble" element={<Treble />} />
-        <Route path="bass/rythm" element={<PlayBass />} />
-        <Route path="bass/norythm" element={<PlayBass />} />
-        <Route path="treble/rythm" element={<PlayTreble />} />
-        <Route path="treble/norythm" element={<PlayTreble />} />
+        <Route path="bass/sf" element={<PlayBass />} />
+        <Route path="bass/no" element={<PlayBass />} />
+        <Route path="treble/sf" element={<PlayTreble />} />
+        <Route path="treble/no" element={<PlayTreble />} />
       </Routes>
     </BrowserRouter>
   );

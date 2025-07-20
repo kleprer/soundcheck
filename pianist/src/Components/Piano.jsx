@@ -4,6 +4,7 @@ const Piano = () => {
   return (
     <div>
         <div className="black-keyboard">
+            <div className="blackkey blackkey-0"></div>
             <div className="blackkey blackkey-1"></div>
             <div className="blackkey blackkey-2"></div>
             <div className="blackkey blackkey-3"></div>
@@ -24,6 +25,11 @@ const Piano = () => {
             <div className="blackkey blackkey-18"></div>
             <div className="blackkey blackkey-19"></div>
             <div className="blackkey blackkey-20"></div>
+            <div className="blackkey blackkey-21"></div>
+            <div className="blackkey blackkey-22"></div>
+            <div className="blackkey blackkey-23"></div>
+            <div className="blackkey blackkey-24"></div>
+            <div className="blackkey blackkey-25"></div>
         </div>
         <div className="white-keyboard">
             <div className="whitekey whitekey-1"></div>
@@ -54,6 +60,13 @@ const Piano = () => {
             <div className="whitekey whitekey-26"></div>
             <div className="whitekey whitekey-27"></div>
             <div className="whitekey whitekey-28"></div>
+            <div className="whitekey whitekey-29"></div>
+            <div className="whitekey whitekey-30"></div>
+            <div className="whitekey whitekey-31"></div>
+            <div className="whitekey whitekey-32"></div>
+            <div className="whitekey whitekey-33"></div>
+            <div className="whitekey whitekey-34"></div>
+            <div className="whitekey whitekey-35"></div>
         </div>
     </div>
   )
