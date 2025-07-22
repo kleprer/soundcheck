@@ -1,10 +1,15 @@
 import React from 'react'
-
 const Piano = () => {
+
+  const start = (note) => {
+    const audio = new Audio('https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3');
+    audio.play();
+  }
+
   return (
     <div>
       <div className="black-keyboard">
-        <div className="blackkey blackkey-0 D1#"></div>
+        <div onClick={() => start('D1#') } className="blackkey blackkey-0 D1#"></div>
         <div className="blackkey blackkey-1 F1#"></div>
         <div className="blackkey blackkey-2 G1#"></div>
         <div className="blackkey blackkey-3 A1#"></div>
