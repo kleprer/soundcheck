@@ -1,9 +1,13 @@
 import React from 'react'
 import Piano from '../Piano'
+import Task from '../Task'
 
 const PlayTreble = () => {
   return (
-    <Piano />
+    <div>
+      <Task />
+      <Piano />
+    </div>
   )
 }
 
