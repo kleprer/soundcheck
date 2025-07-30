@@ -14,10 +14,22 @@
   font-size: medium;
 }
 
+.playtask {
+  width:fit-content;
+  height:fit-content;
+  position: absolute;
+  top:-40vh;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  
+}
+
 .choice {
   display: flex;
   align-items: center;
-  margin-top: 35svh;
+  margin-top: 35vh;
 
   /* placing it in the center VERTICALLY */
   position: absolute;

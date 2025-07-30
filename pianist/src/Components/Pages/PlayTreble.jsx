@@ -4,7 +4,7 @@ import Task from '../Task'
 
 const PlayTreble = () => {
   return (
-    <div>
+    <div >
       <Task />
       <Piano />
     </div>

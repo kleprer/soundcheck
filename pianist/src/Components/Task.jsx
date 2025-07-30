@@ -1,9 +1,10 @@
 import React from 'react'
-import treble from '../../public/';
+import treble from '../../src/treblelines.svg';
+import bass from '../../src/basslines.svg'
 const Task = () => {
   return (
-    <div>
-        <img src={treble} alt='lines'/>
+    <div className="playtask">
+        <img src={treble} alt='lines' width='350px' height='auto'/>
     </div>
   )
 }
