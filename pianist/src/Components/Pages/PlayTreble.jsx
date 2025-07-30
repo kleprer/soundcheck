@@ -4,12 +4,11 @@ import Task from '../Task'
 import treble from '../../../src/treblelines.svg';
 
 const PlayTreble = () => {
+  let keynotes = ['A5']
   return (
     <div >
-      
-      <Task clef={treble}/>
-      
-      <Piano />
+      <Task clef={treble} melody={keynotes}/>
+      <Piano melody={keynotes}/>
     </div>
   )
 }

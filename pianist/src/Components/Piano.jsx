@@ -1,8 +1,18 @@
-import React from 'react'
-const Piano = () => {
+import React, { useState } from 'react'
+const Piano = ({melody}) => {
+
+  let keynotes = melody;
+  let [currentNote, setCurrentNote] = useState(0);
+  let [notesPlayed, setNotesPlayed] = useState([]);
 
   const start = (note) => {
     window.focus();
+    if (note == keynotes[currentNote]) {
+      setCurrentNote(currentNote + 1);
+      setNotesPlayed(...notesPlayed, note);
+      
+    }
+    console.log(keynotes[currentNote], notesPlayed, currentNote, note);
     if (note === 'D1#') new Audio("https://cdn.freesound.org/previews/573/573483_2214720-lq.mp3").play();
     if (note === 'E1') new Audio("https://cdn.freesound.org/previews/573/573495_2214720-lq.mp3").play();
     if (note === 'F1') new Audio("https://cdn.freesound.org/previews/573/573458_2214720-lq.mp3").play();

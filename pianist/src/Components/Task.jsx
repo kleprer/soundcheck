@@ -1,21 +1,20 @@
 import React from 'react'
 import Note from './Note'
 
-const Task = ({clef}) => {
+const Task = ({clef, melody}) => {
 
-    let keynotes = ['C4', 'E5', 'G4']
+    let keynotes = melody;
 
-  return (
-    <div className="playtask">
-        <img src={clef} alt='lines' width='350px' height='auto'/>
-        <div className="melody">
-            {keynotes.map(function(kn, i){
-                return <Note keynote={kn} key={i} />;
-            })}
+    return (
+        <div className="playtask">
+            <img src={clef} alt='lines' width='350px' height='auto'/>
+            <div className="melody">
+                {keynotes.map(function(kn, i){
+                    return <Note keynote={kn} key={i} />;
+                })}
+            </div>
         </div>
-        
-    </div>
-  )
+    )
 }
 
 export default Task
