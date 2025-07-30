@@ -223,6 +223,7 @@
 }
 
 .guessed {
-  margin-top: 4vh;
-  
+  opacity: 0%;
+  color:blue;
+  margin-top: 5vh;
 }

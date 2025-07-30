@@ -8,9 +8,19 @@ const Piano = ({melody}) => {
   const start = (note) => {
     window.focus();
     if (note == keynotes[currentNote]) {
+      document.getElementsByClassName('guessed')[currentNote].style.opacity='100%';
+      document.getElementsByClassName('keynote')[currentNote].style.backgroundColor='blue';
       setCurrentNote(currentNote + 1);
       setNotesPlayed(...notesPlayed, note);
       if (currentNote + 1 == keynotes.length ) {
+        var ele = document.getElementsByClassName('guessed');
+        for (var i = 0; i < ele.length; i++ ) {
+           document.getElementsByClassName('guessed')[currentNote].style.opacity='100%';
+        }
+        var ele = document.getElementsByClassName('keynote');
+        for (var i = 0; i < ele.length; i++ ) {
+           document.getElementsByClassName('keynote')[currentNote].style.backgroundColor='black';
+        }
         setCurrentNote(0);
         setNotesPlayed([]);
       }
