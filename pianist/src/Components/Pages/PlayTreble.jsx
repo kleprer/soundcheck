@@ -7,7 +7,7 @@ import Note from '../Note';
 const PlayTreble = () => {
   return (
     <div >
-      <Note keynote={'D1S'}/>
+      <Note keynote={'A5'}/>
       <Task clef={treble}/>
       
       <Piano />
