@@ -10,6 +10,10 @@ const Piano = ({melody}) => {
     if (note == keynotes[currentNote]) {
       setCurrentNote(currentNote + 1);
       setNotesPlayed(...notesPlayed, note);
+      if (currentNote + 1 == keynotes.length ) {
+        setCurrentNote(0);
+        setNotesPlayed([]);
+      }
       
     }
     console.log(keynotes[currentNote], notesPlayed, currentNote, note);

@@ -221,3 +221,8 @@
   align-self: auto;
   flex-direction: row;
 }
+
+.guessed {
+  margin-top: 4vh;
+  
+}
